@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Nicolas Jaccard - Personal Website</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="MaterialDesign-Webfont/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" media="all" rel="stylesheet" type="text/css"/>
+  <style>
+    .collapsible-header img {
+      margin-right: 25px;
+    }
+
+    h3 {
+     overflow: hidden;
+     text-align: center;
+   }
+   h3:before,
+   h3:after {
+     background-color: #333;
+     content: "";
+     display: inline-block;
+     height: 1px;
+     position: relative;
+     vertical-align: middle;
+     width: 50%;
+   }
+   h3:before {
+     right: 0.5em;
+     margin-left: -50%;
+   }
+   h3:after {
+     left: 0.5em;
+     margin-right: -50%;
+   }
+
+   span.fakeList::before{
+    line-height: 0rem;
+    float: left;
+    width: .45rem;
+    height: .45rem;
+    margin: .75rem .75rem 0 0;
+    content: '';
+    border-radius: 50%;
+    background-color: #673AB7;
+  }
+</style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Nicolas Jaccard</a>
+<!--       <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html"><i class="material-icons left">search</i>Link with Left Icon</a></li>
+        <li><a href="badges.html"><i class="material-icons right">view_module</i>Link with Right Icon</a></li>
+      </ul> -->
+    </div>
+  </nav>
+
+  <div class="section fade-in" id="index-banner" style="display: block; opacity: 1;">
+    <div class="container">
+      <div class="row center">
+        <div class="col s12 m12">
+          <h2 class="header section-title">
+            <span>
+              About me
+            </span>
+          </h2>
+
+          <p class="flow-text">
+            Find out more about my <strong class="deep-purple-text lighten-1">academic background</strong>, <strong class="light-green-text lighten-1">experience</strong>, and  <strong class="amber-text lignth-1">awards</strong>.
+          </p>
+        </div>
+      </div>
+
+      <div class="row center">
+        <a class="waves-effect waves-light btn"><i class="material-icons left">archive</i>CV (PDF)</a>
+        <a class="waves-effect waves-light btn"><i class="mdi mdi-linkedin-box left"></i>LinkedIn profile</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+
+        <div class="col s12 m8">
+
+          <h3><strong class="deep-purple-text lighten-1"><i class="medium material-icons" style="vertical-align:-15px;">school</i></strong></h3>
+          <ul class="collapsible popout collapsible-accordion" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header tooltipped" data-position="top" data-delay="50" data-tooltip="Click to expand">
+                <img src="Images/UCL.png" height="20px"><strong>Ph.D.</strong> | Biomedical Image Processing
+              </div>
+              <div class="collapsible-body">
+                <container>
+                  <p class="flow-text" style="font-size:13pt"><i class="material-icons" style="font-size:13pt">date_range</i>2010-2014<i class="material-icons" style="font-size:13pt">place</i>University College London (CoMPLEX | Biochemical Engineering) <br><br><strong>Development of an image processing method for automated, non-invasive and scale-independent
+                    monitoring of adherent cell cultures</strong>
+                    <br><br>
+                    <u>Supervision</u>: Prof. Nicolas Szita and Dr. Farlan Veraitch<br>
+                    <u>Examination</u>: Dr. Ivo Sbalzirini and Prof. Michael Hoare<br><br>
+                    Highlights of the project included:<br>
+                    <span class="fakeList">Development of novel microscopy image segmentation algorithms, including one based on
+                      machine-learning techniques (ensemble of decision trees)</span><br>
+                      <span class="fakeList">Bundling of the most promising algorithms with a graphical user interface and release as an
+                        open-source framework (https://github.com/nicjac/phantast-matlab)</span><br>
+                        <span class="fakeList">Experimental validation with various cell lines, microscopes, and cameras</span>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header"><img src="Images/UCL.png" height="20px"><strong>MRes.</strong> | Biolgical Complexity Modelling</div>
+                    <div class="collapsible-body">
+                      <p class="flow-text" style="font-size:13pt;padding-bottom:0px!important;"><i class="material-icons" style="font-size:13pt">date_range</i>2009-2010<i class="material-icons" style="font-size:13pt">place</i>University College London (CoMPLEX) <br><br>
+                        <strong>Taught inter-disciplinary degree, awarded with distinction</strong> <i class="small ion-ribbon-a" style="vertical-align:0px;"></i><br><br>
+                        <u>Case assays</u>:</p>
+                        <p class="flow-text" style="font-size:13pt;padding-top:0px;padding-bottom: 0px"><span class="fakeList">Synthetic gene network for the efficient generation of induced pluripotent stem cells from
+                          adult somatic cells [<a href="Files/CoMPLEX_CP1_Jaccard_N.pdf">PDF <i class="material-icons" style="vertical-align:-5px;">archive</i></a>]</span></p>
+<!--                           <div class="row valign-wrapper" style="padding-top:0px">
+                            <div class="col s6">
+                              <img class="responsive-img materialboxed valign" src="Images/CP1_A.jpg">
+                            </div>
+                            <div class="col s6 valign-wrapper">
+                              <img class="responsive-img materialboxed valign" src="Images/CP1_B.jpg">
+                            </div>
+                          </div> -->
+                          <p class="flow-text" style="font-size:13pt;padding-top:0px;padding-bottom:0px">
+                            <span class="fakeList">Computational inference of cis-regulatory elements involved in transcriptional regulation of sex-biased gene expression in Drosophila [<a href="Files/CoMPLEX_CP2_Jaccard_N.pdf">PDF <i class="material-icons" style="vertical-align:-5px;">archive</i></a>]</span></p>
+                  
+<!-- 
+                  <div class="row">
+
+                  <img class="responsive-img materialboxed" src="Images/CP2_A.jpg">
+
+                  </div> -->
+<p class="flow-text" style="font-size:13pt;padding-top:0px">
+                            <span class="fakeList">An image-processing tool for the quantitative study of the developing Drosophila retina [<a href="Files/CoMPLEX_CP3_Jaccard_N.pdf">PDF <i class="material-icons" style="vertical-align:-5px;">archive</i></a>]</span></p>
+
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header"><img src="Images/HES.png" height="20px"><strong>BSc.</strong> | Biotechnology Engineering</div>
+                          <div class="collapsible-body"><p></p></div>
+                        </li>
+                      </ul>
+
+                      <h3><strong class="light-green-text lighten-1"><i class="material-icons medium" style="vertical-align:-15px;">work</i></strong></h3>
+                      <ul class="collapsible popout collapsible-accordion" data-collapsible="accordion">
+                        <li>
+                          <div class="collapsible-header"><img src="Images/UCL.png" height="20px"><strong>Research Associate</strong> | Automated X-ray cargo image analysis</div>
+                          <div class="collapsible-body">              <p style="margin-bottom:0px"><i class="material-icons" style="font-size:13pt">date_range</i>2010-2014<i class="material-icons" style="font-size:13pt">place</i>University College London (CoMPLEX | Biochemical Engineering)
+                            <br>
+                            </p>
+                          </div>
+
+                        </li>
+                        <li>
+                          <div class="collapsible-header"><img src="Images/UCL.png" height="20px"><strong>Internship</strong> | Process development</div>
+                          <div class="collapsible-body"><p></p></div>
+                        </li>
+                      </ul>
+                      <h3><strong class="amber-text lignth-1"><i class="ion-ribbon-a" style="vertical-align:-5px;"></i></strong></h3>
+                      <ul class="collapsible popout collapsible-accordion" data-collapsible="accordion">
+                        <li>
+                          <div class="collapsible-header"><img src="Images/GriffinLabLogoVectorNoEmail.svg" height="20px"><strong>Research Associate</strong> | Automated X-ray cargo image analysis</div>
+                          <div class="collapsible-body"><p>
+
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="collapsible-header"><img src="Images/UCL.png" height="20px"><strong>Internship</strong> | Process development</div>
+                        <div class="collapsible-body"><p></p></div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="col s12 m4">
+                    <h3><strong class="blue-grey-text lighten-1"><i class="medium mdi mdi-desktop-mac" style="vertical-align:-6px;"></i></strong></h3>
+                    <ul class="">
+                      <li class=""><strong>Problems I solve</strong></li>
+                      <li class="">Image segmentation</li>
+                      <li class="">Image classification</li>
+                      <li class="">Data visualization</li>
+                      <li class="">Modelling and forecasting</li>
+                    </ul>
+
+                    <ul class="">
+                      <li class=""><strong>Methods I use</strong></li>
+                      <li class="">Deep Learning</li>
+                      <li class="">Random Forest</li>
+                      <li class="">Support Vector Machine</li>
+                      <li class="">Bags of Visual Words</li>
+                      <li class="">Fixed geometric features</li>
+                    </ul>
+
+                    <ul class="">
+                      <li class=""><strong>Languages I speak</strong></li>
+                      <li class="">MATLAB</li>
+                      <li class="">R</li>
+                      <li class="">Mathematica</li>
+                      <li class="">Java</li>
+                      <li class="">C++</li>
+                    </ul>
+
+                    <h3><strong class="blue-grey-text lighten-1"><i class="medium mdi mdi-microscope" style="vertical-align:-5px;"></i></strong></h3>
+                    <ul>
+                      <li class=""><strong>Skills in the lab</strong></li>
+                      <li class="">Microscopy</li>
+                      <li class="">Cell line generation</li>
+                      <li class="">Animal cell maintenance</li>
+                      <li class="">Cell line generation</li>
+                      <li class="">Transfection</li>
+                      <li class="">Differentiation</li>
+                      <li class="">Process development and optimisation</li>
+                    </ul>
+
+                  </div>
+                </div>
+
+
+
+                <footer class="page-footer orange">
+                  <div class="footer-copyright">
+                    <div class="container">
+                      Copyright Nicolas Jaccard 2016  |   Powered by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                    </div>
+                  </div>
+                </footer>
+
+
+                <!--  Scripts-->
+                <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+                <script src="js/materialize.js"></script>
+                <script src="js/init.js"></script>
+
+              </body>
+              </html>
