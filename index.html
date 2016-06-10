@@ -23,10 +23,10 @@
    }
    h3:before,
    h3:after {
-     background-color: #333;
+     background-color: #B3B5B5;
      content: "";
      display: inline-block;
-     height: 1px;
+     height: 2px;
      position: relative;
      vertical-align: middle;
      width: 50%;
@@ -55,13 +55,24 @@
 
 <body>
 
-  <nav>
-    <div class="nav-wrapper">
+  <nav class="blue-grey lighten-2">
+    <div class="nav-wrapper container">
       <a href="#!" class="brand-logo">Nicolas Jaccard</a>
-<!--       <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html"><i class="material-icons left">search</i>Link with Left Icon</a></li>
-        <li><a href="badges.html"><i class="material-icons right">view_module</i>Link with Right Icon</a></li>
-      </ul> -->
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My background</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li><i class="mdi mdi-twitter-box"></i></li>
+        <li><i class="mdi mdi-linkedin-box"></i></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#">Sass</a></li>
+        <li><a href="#">Components</a></li>
+        <li><a href="#">Javascript</a></li>
+        <li><a href="#">Mobile</a></li>
+      </ul>
     </div>
   </nav>
 
@@ -120,27 +131,12 @@
                     <div class="collapsible-header"><img src="Images/UCL.png" height="20px"><strong>MRes.</strong> | Biolgical Complexity Modelling</div>
                     <div class="collapsible-body">
                       <p class="flow-text" style="font-size:13pt;padding-bottom:0px!important;"><i class="material-icons" style="font-size:13pt">date_range</i>2009-2010<i class="material-icons" style="font-size:13pt">place</i>University College London (CoMPLEX) <br><br>
-                        <strong>Taught inter-disciplinary degree, awarded with distinction</strong> <i class="small ion-ribbon-a" style="vertical-align:0px;"></i><br><br>
+                        <strong>Taught inter-disciplinary degree</strong><br><i class="small ion-ribbon-a" style="vertical-align:0px;"></i>  Distinction <br>
                         <u>Case assays</u>:</p>
                         <p class="flow-text" style="font-size:13pt;padding-top:0px;padding-bottom: 0px"><span class="fakeList">Synthetic gene network for the efficient generation of induced pluripotent stem cells from
                           adult somatic cells [<a href="Files/CoMPLEX_CP1_Jaccard_N.pdf">PDF <i class="material-icons" style="vertical-align:-5px;">archive</i></a>]</span></p>
-<!--                           <div class="row valign-wrapper" style="padding-top:0px">
-                            <div class="col s6">
-                              <img class="responsive-img materialboxed valign" src="Images/CP1_A.jpg">
-                            </div>
-                            <div class="col s6 valign-wrapper">
-                              <img class="responsive-img materialboxed valign" src="Images/CP1_B.jpg">
-                            </div>
-                          </div> -->
                           <p class="flow-text" style="font-size:13pt;padding-top:0px;padding-bottom:0px">
                             <span class="fakeList">Computational inference of cis-regulatory elements involved in transcriptional regulation of sex-biased gene expression in Drosophila [<a href="Files/CoMPLEX_CP2_Jaccard_N.pdf">PDF <i class="material-icons" style="vertical-align:-5px;">archive</i></a>]</span></p>
-                  
-<!-- 
-                  <div class="row">
-
-                  <img class="responsive-img materialboxed" src="Images/CP2_A.jpg">
-
-                  </div> -->
 <p class="flow-text" style="font-size:13pt;padding-top:0px">
                             <span class="fakeList">An image-processing tool for the quantitative study of the developing Drosophila retina [<a href="Files/CoMPLEX_CP3_Jaccard_N.pdf">PDF <i class="material-icons" style="vertical-align:-5px;">archive</i></a>]</span></p>
 
@@ -148,7 +144,12 @@
                         </li>
                         <li>
                           <div class="collapsible-header"><img src="Images/HES.png" height="20px"><strong>BSc.</strong> | Biotechnology Engineering</div>
-                          <div class="collapsible-body"><p></p></div>
+                          <div class="collapsible-body">
+                          <p>
+                                                        <i class="small ion-ribbon-a" style="vertical-align:0px;"></i>  Best results across the engineering sections <br>
+                            <i class="small ion-ribbon-a" style="vertical-align:0px;"></i>  Best bachelor thesis project <br>
+                          </p>
+                          </div>
                         </li>
                       </ul>
 
@@ -164,7 +165,8 @@
                         </li>
                         <li>
                           <div class="collapsible-header"><img src="Images/UCL.png" height="20px"><strong>Internship</strong> | Process development</div>
-                          <div class="collapsible-body"><p></p></div>
+                          <div class="collapsible-body"><p>
+                          </p></div>
                         </li>
                       </ul>
                       <h3><strong class="amber-text lignth-1"><i class="ion-ribbon-a" style="vertical-align:-5px;"></i></strong></h3>
