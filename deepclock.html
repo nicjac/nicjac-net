@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Nicolas Jaccard - Personal Website</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="MaterialDesign-Webfont/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" media="all" rel="stylesheet" type="text/css"/>
+  <style>
+    .collapsible-header img {
+      margin-right: 25px;
+    }
+
+    h3 {
+     overflow: hidden;
+     text-align: center;
+   }
+   h3:before,
+   h3:after {
+     background-color: #B3B5B5;
+     content: "";
+     display: inline-block;
+     height: 2px;
+     position: relative;
+     vertical-align: middle;
+     width: 50%;
+   }
+   h3:before {
+     right: 0.5em;
+     margin-left: -50%;
+   }
+   h3:after {
+     left: 0.5em;
+     margin-right: -50%;
+   }
+
+   span.fakeList::before{
+    line-height: 0rem;
+    float: left;
+    width: .45rem;
+    height: .45rem;
+    margin: .75rem .75rem 0 0;
+    content: '';
+    border-radius: 50%;
+    background-color: #673AB7;
+  }
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3711435-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+
+  <nav class="blue-grey lighten-2">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">Nicolas Jaccard</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My background</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li><i class="mdi mdi-twitter-box"></i></li>
+        <li><i class="mdi mdi-linkedin-box"></i></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#">Sass</a></li>
+        <li><a href="#">Components</a></li>
+        <li><a href="#">Javascript</a></li>
+        <li><a href="#">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="section fade-in" id="index-banner" style="display: block; opacity: 1;">
+    <div class="container">
+      <div class="row center">
+        <div class="col s12 m12">
+          <h2 class="header section-title">
+            <span>
+              In-depth articles
+            </span>
+          </h2>
+
+          <p class="flow-text">
+            Can we teach a Deep Network to read time?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+
+        <div class="col s12 m12">
+
+          <h3><strong class="deep-purple-text lighten-1">Introduction and context</strong></h3>
+                <p class="flow-text">Reading analogue time is difficult. Different mechanisms (continuous minute, discontinuous minute)
+                </p>
+
+               
+
+          <h3><strong class="deep-purple-text lighten-1">The dataset bottleneck</strong></h3>
+          <p class="flow-text">As it is usually the case in machine learning, getting a suitably large and diverse dataset is the main bottleneck. The Internet is in no shortage of images of clocks and watches but I couldn't find any <i>labeled</i> dataset. As I result, I had to generate my own. I used to different approaches with different drawbacks and advantages:</p>
+          <ul class="collection">
+          <li class="collection-item"><b>Crude MATLAB watchface (MATFACE)</b></li></li>
+          <li class="collection-item"><b>Android Wear watchfaces (DROIDFACE)</b><br>My idea was to use Android Wear watchfaces for training and testing my time reading network. After all, people actually use these watch faces, so they must be a good representation of the real thing.</li>
+          </ul>
+                
+ </div>
+</div>
+</div>
+</div>
+
+
+  <footer class="page-footer orange">
+    <div class="footer-copyright">
+      <div class="container">
+        Copyright Nicolas Jaccard 2016  |   Powered by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+  </html>
